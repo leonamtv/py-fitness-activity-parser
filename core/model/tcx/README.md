@@ -1,0 +1,46 @@
+# TCX file format
+
+## TCX Structure
+
+- TrainingCenterDatabase
+    - Activities (multiple)
+        - Activity (multiple)
+            - Id (one)
+            - Lap (multiple)
+                - TotalTimeSeconds
+                - DistanceMeters
+                - MaximumSpeed
+                - Calories
+                - AverageHeartRateBpm
+                    - Value
+                - MaximumHeartRateBpm
+                    - Value
+                - Intensity
+                - TriggerMethod
+                - Track (one)
+                    - Trackpoint (multiple)
+                        - Time
+                        - Position
+                            - LatitudeDegrees
+                            - LongitudeDegrees
+                        - AltitudeMeters
+                        - DistanceMeters
+                        - HeartRateBpm
+                            - Value
+                        - Extensions
+                            - TPX
+                                - Speed
+            - Lap
+                - ...
+            - ...
+        - Creator (one)
+    - Author (one)
+        - Name
+        - Build
+            - Version
+                - VersionMajor
+                - VersionMinor
+                - BuildMajor
+                - BuildMinor
+        - LangID
+        - PartNumber

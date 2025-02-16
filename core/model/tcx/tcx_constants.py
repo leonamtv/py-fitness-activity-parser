@@ -1,0 +1,40 @@
+from core.model.tcx.namespaces import namespaces
+
+# Tags
+ACTIVITIES_TAG = f"{{{namespaces['xmlns']}}}Activities"
+ACTIVITY_TAG = f"{{{namespaces['xmlns']}}}Activity"
+AUTHOR_TAG = f"{{{namespaces['xmlns']}}}Author"
+AVERAGE_HEART_RATE_BPM_TAG = f"{{{namespaces['xmlns']}}}AverageHeartRateBpm"
+BUILD_MAJOR_TAG = f"{{{namespaces['xmlns']}}}BuildMajor"
+BUILD_MINOR_TAG = f"{{{namespaces['xmlns']}}}BuildMinor"
+BUILD_TAG = f"{{{namespaces['xmlns']}}}Build"
+CALORIES_TAG = f"{{{namespaces['xmlns']}}}Calories"
+CREATOR_TAG = f"{{{namespaces['xmlns']}}}Creator"
+ALTITUDE_METERS_TAG = f"{{{namespaces['xmlns']}}}AltitudeMeters"
+DISTANCE_METERS_TAG = f"{{{namespaces['xmlns']}}}DistanceMeters"
+HEART_RATE_BPM_TAG = f"{{{namespaces['xmlns']}}}HeartRateBpm" 
+ID_TAG = f"{{{namespaces['xmlns']}}}Id"
+INTENSITY_TAG = f"{{{namespaces['xmlns']}}}Intensity"
+LANG_ID_TAG = f"{{{namespaces['xmlns']}}}LangID"
+LAP_TAG = f"{{{namespaces['xmlns']}}}Lap"
+LATITUDE_TAG = f"{{{namespaces['xmlns']}}}LatitudeDegrees"
+LONGITUDE_TAG = f"{{{namespaces['xmlns']}}}LongitudeDegrees"
+MAXIMUM_HEART_RATE_BPM_TAG = f"{{{namespaces['xmlns']}}}MaximumHeartRateBpm"
+MAXIMUM_SPEED_TAG = f"{{{namespaces['xmlns']}}}MaximumSpeed"
+NAME_TAG = f"{{{namespaces['xmlns']}}}Name"
+PART_NUMBER_TAG = f"{{{namespaces['xmlns']}}}PartNumber"
+POSITION_TAG = f"{{{namespaces['xmlns']}}}Position"
+PRODUCT_ID_TAG = f"{{{namespaces['xmlns']}}}ProductID"
+TIME_TAG = f"{{{namespaces['xmlns']}}}Time"
+TOTAL_TIME_SECONDS_TAG = f"{{{namespaces['xmlns']}}}TotalTimeSeconds"
+TRACK_POINT_TAG = f"{{{namespaces['xmlns']}}}Trackpoint"
+TRACK_TAG = f"{{{namespaces['xmlns']}}}Track"
+TRIGGER_METHOD_TAG = f"{{{namespaces['xmlns']}}}TriggerMethod"
+VALUE_TAG = f"{{{namespaces['xmlns']}}}Value"
+VERSION_MAJOR_TAG = f"{{{namespaces['xmlns']}}}VersionMajor"
+VERSION_MINOR_TAG = f"{{{namespaces['xmlns']}}}VersionMinor"
+VERSION_TAG = f"{{{namespaces['xmlns']}}}Version"
+
+# Attributes
+SPORT_ATTR = 'Sport'
+START_TIME_ATTR = 'StartTime'

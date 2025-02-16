@@ -1,0 +1,6 @@
+__pycache__
+*.tcx
+*.gpx
+.vscode
+*.json
+*.txt
